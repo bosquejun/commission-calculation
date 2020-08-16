@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "build-test": "mocha -w ./test/*.test.js --INPUT=./input.json",
     "test": "mocha ./test/*.test.js --INPUT=./input.json"
   },
