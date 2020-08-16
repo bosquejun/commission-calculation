@@ -1,0 +1,23 @@
+{
+  "name": "commission-fee-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-test": "mocha -w ./test/*.test.js --INPUT=./input.json",
+    "test": "mocha ./test/*.test.js --INPUT=./input.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.20",
+    "mocha": "^8.1.1",
+    "moment": "^2.27.0",
+    "request": "^2.88.2"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
